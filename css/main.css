@@ -1,16 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+/*Font-out*/
+
+@font-face {
+    font-family: l001;
+    src: url(/assets/fonts/001/001-Light.otf);
+    font-weight: 200;
+ }
+
+ @font-face {
+    font-family: l001;
+    src: url(/assets/fonts/001/001-Regular.otf);
+    font-weight: 400;
+ }
+
+ @font-face {
+    font-family: l001;
+    src: url(/assets/fonts/001/001-Ultrabold.otf);
+    font-weight: 600;
+ }
+
+
+/*Colors area*/
+
 :root {
-    --ox: rgb(236, 237, 102);
-    --oy: rgb(0, 0, 0);
+    --ox: #000000ff;
+    --oy: #00ff00ff;
 }
 
+ /*page*/
 
 * {
     padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+    color: var(--oy)
 }
 
 body {
@@ -37,8 +62,8 @@ body {
     background: transparent;
     border: 2px solid var(--ox);
     color: var(--ox);
-    font-family: 'DM Sans', sans-serif; 
-    font-weight: 500;
+    font-family: 'l001'; 
+    font-weight: 400;
     font-size: 20px;
     margin-left: 3px;
     transition: 0.2s;
@@ -64,21 +89,21 @@ body {
 }
 
 .lineheader {
-    border-top: 8px solid var(--oy);
+    border-top: 6px solid var(--oy);
 }
 
 .titleheader {
-    font-family: 'DM Sans', sans-serif; 
-    font-weight: 500;
-    font-size: 30px;
+    font-family: 'l001'; 
+    font-weight: 400;
+    font-size: 25px;
     max-width: 550px;
     padding: 20px 0px 20px 0px;
     margin: 0 auto;
 }
 
 .desc-header {
-    font-family: 'DM Sans', sans-serif; 
-    font-weight: 500;
+    font-family: 'l001'; 
+    font-weight: 400;
     font-size: 20px;
     max-width: 650px;
     padding: 50px 0px 50px 0px;
@@ -99,8 +124,8 @@ body {
 
 /*Content*/
 .contentarea {
-    font-family: Merriweather;
-    font-weight: 500;
+    font-family: 'l001'; 
+    font-weight: 400;
     font-size: 20px;
     max-width: 650px;
     padding: 0px 0px 50px 0px;

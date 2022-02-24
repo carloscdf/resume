@@ -1,0 +1,56 @@
+@media (max-width: 650px) {
+    .header-box {
+        max-width: 100%;
+    }
+
+    .main-header {
+        padding: 15px 0px 15px 0px;
+    }
+
+    .hire, .github {
+        font-size: 15px;
+        font-weight: bold;
+        padding: 5px 10px 5px 10px;
+        border: 3px solid var(--ox);
+    }
+
+
+    /*Title*/
+
+    .header2 {
+        max-width: 80%;
+    }
+
+    .desc-header {
+        max-width: 80%;
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .titleheader {
+        font-size: 14px;
+    }
+
+    /*content*/
+
+    .contentarea {
+        max-width: 80%;
+        font-size: 12pt;
+        line-height: 25px;
+    }
+
+    .content-text::first-letter{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .title-content {
+        font-size: 12pt;
+    }
+
+    .lista1 {
+        font-size: 12pt;
+        line-height: 25px;
+    }
+
+}

@@ -60,10 +60,10 @@ body {
     padding: 10px 20px 10px 20px;
     border-radius: none;
     background: transparent;
-    border: 2px solid var(--ox);
+    border: 3px solid var(--ox);
     color: var(--ox);
     font-family: 'DM Sans'; 
-    font-weight: 400;
+    font-weight: bold;
     font-size: 20px;
     margin-left: 3px;
     transition: 0.2s;

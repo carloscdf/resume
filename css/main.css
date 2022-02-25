@@ -62,7 +62,7 @@ body {
     background: transparent;
     border: 2px solid var(--ox);
     color: var(--ox);
-    font-family: 'l001'; 
+    font-family: 'DM Sans'; 
     font-weight: 400;
     font-size: 20px;
     margin-left: 3px;
@@ -93,7 +93,7 @@ body {
 }
 
 .titleheader {
-    font-family: 'l001'; 
+    font-family: 'DM Sans'; 
     font-weight: 400;
     font-size: 25px;
     max-width: 550px;
@@ -102,7 +102,7 @@ body {
 }
 
 .desc-header {
-    font-family: 'l001'; 
+    font-family: 'DM Sans'; 
     font-weight: 400;
     font-size: 20px;
     max-width: 650px;
@@ -124,7 +124,7 @@ body {
 
 /*Content*/
 .contentarea {
-    font-family: 'l001'; 
+    font-family: 'DM Sans'; 
     font-weight: 400;
     font-size: 20px;
     max-width: 650px;

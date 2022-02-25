@@ -1,32 +1,14 @@
+/*Font-out*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
-/*Font-out*/
-
-@font-face {
-    font-family: l001;
-    src: url("assets/fonts/001/001-Light.otf");
-    font-weight: 200;
- }
-
- @font-face {
-    font-family: l001;
-    src: url("assets/fonts/001/001-Regular.otf");
-    font-weight: 400;
- }
-
- @font-face {
-    font-family: l001;
-    src: url("assets/fonts/001/001-Ultrabold.otf");
-    font-weight: 600;
- }
-
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /*Colors area*/
 
 :root {
-    --ox: #000000ff;
-    --oy: #00ff00ff;
+    --ox: rgb(255, 255, 255);
+    --oy: rgb(0, 0, 0);
 }
 
  /*page*/
@@ -45,23 +27,28 @@ body {
 /*Header*/
 .main-header {
     padding: 30px 0px 30px 0px;
-    background: var(--oy);
+    background: var(--oz);
 }
 
 .header-box {
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
-    background: var(--oy);
+    background: var(--oz);
 }
+
+.blockcolor {
+    background: var(--oz);
+}
+
 
 /*Buttons*/
 .hire, .github {
     padding: 10px 20px 10px 20px;
     border-radius: none;
     background: transparent;
-    border: 3px solid var(--ox);
-    color: var(--ox);
+    border: 3px solid var(--oy);
+    color: var(--oy);
     font-family: 'DM Sans'; 
     font-weight: bold;
     font-size: 20px;
@@ -72,14 +59,14 @@ body {
 }
 
 .hire:hover, .github:hover {
-    color: var(--oy);
-    background: var(--ox);
+    color: var(--ox);
+    background: var(--oy);
 }
 
 
 /*Body Content*/
 .body-content {
-    margin-top: 70px;
+    margin-top: 30px;
 
 }
 
@@ -90,23 +77,31 @@ body {
 
 .lineheader {
     border-top: 6px solid var(--oy);
+    display: none;
 }
 
 .titleheader {
-    font-family: 'DM Sans'; 
+    font-family: 'Dela Gothic One'; 
     font-weight: 400;
-    font-size: 25px;
-    max-width: 550px;
-    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    max-width: 700px;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
     margin: 0 auto;
 }
 
+.desc1 {
+    padding: 10px 20px 10px 20px;
+    border: 3px solid var(--oy);
+    border-radius: 50px;
+}
+
+
 .desc-header {
     font-family: 'DM Sans'; 
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     max-width: 650px;
-    padding: 50px 0px 50px 0px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -125,22 +120,35 @@ body {
 /*Content*/
 .contentarea {
     font-family: 'DM Sans'; 
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     max-width: 650px;
-    padding: 0px 0px 50px 0px;
+    padding: 0px 0px 0px 0px;
     margin: 0 auto;
-    line-height: 35px;
+    line-height: 30px;
+}
+
+.contentarea2 {
+    font-family: 'DM Sans'; 
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 650px;
+    padding: 50px 0px 50px 0px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: justify;
 }
 
 .content-text::first-letter{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
+    font-family: 'IBM Plex Mono';
 }
 
 .title-content {
     margin-bottom: 20px;
     font-size: 20px;
+    font-family: 'IBM Plex Mono';
 }
 
 .lista1 {
@@ -150,6 +158,19 @@ body {
 
 .l1 {
     margin: 15px 0px 15px 0px;
+}
+
+.box-design {
+    border: 0px solid var(--oy);
+    padding: 10px 45px 10px 45px;  
+    transition: 0.2s;
+}
+
+.box-design:hover {
+    border: 3px solid var(--oy);
+    padding: 25px 50px 25px 50px;
+    transition: 0.2s;
+
 }
 
 .certlink {
@@ -167,4 +188,9 @@ body {
 .certlink:hover {
     background: var(--oy);
     color: var(--ox);
+}
+
+/*footer*/
+.footer {
+    margin-top: 100px;
 }

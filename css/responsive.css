@@ -28,7 +28,7 @@
     }
 
     .titleheader {
-        font-size: 11px;
+        font-size: 15px;
     }
 
     /*content*/
@@ -45,11 +45,6 @@
         font-size: 12pt;
         line-height: 25px;
         text-align: left;
-    }
-
-    .content-text::first-letter{
-        font-size: 2rem;
-        font-weight: bold;
     }
 
     .title-content {
